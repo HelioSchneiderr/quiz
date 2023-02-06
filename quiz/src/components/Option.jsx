@@ -14,4 +14,4 @@ const Option = ({ option }) => {
   );
 };
 
-export default Option
+export default Option;

@@ -13,7 +13,7 @@ const initialState = {
 const quizReducer = (state, action) =>{
     console.log("Aqui meu querido", state)
     switch(action.type){
-        case "CHASE_STATE":
+        case "CHANGE_STATE":
 
             return{
                 ...state, gameStage: STAGES[1],
